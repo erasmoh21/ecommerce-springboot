@@ -1,0 +1,11 @@
+.main-app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  justify-content: space-between;
+
+  &.no-scroll{
+    max-height: 100vh;
+  }
+}

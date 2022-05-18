@@ -1,0 +1,50 @@
+@import '../../../styles/variables';
+@import '../../../styles/fonts';
+@import '../../../styles/mixins';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-secondary;
+  height: 70px;
+  padding: $padding-default;
+  @media screen and (min-width: $min-width-tablet){
+    padding: $padding-tablet;
+  }
+  @media screen and (min-width: $min-width-desktop){
+    padding: $padding-desktop;
+  }
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    @include button-without-styles;
+
+    &-text {
+      color: white;
+      @include text-font-2
+    }
+  }
+
+  &-buttons {
+    display: none;
+    gap: 10px;
+
+    @media screen and (min-width: $min-width-tablet){
+      display: flex;
+    }
+  }
+
+  &-ham-menu {
+    @include button-without-styles;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (min-width: $min-width-tablet){
+      display: none;
+    }
+  }
+}

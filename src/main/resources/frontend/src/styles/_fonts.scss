@@ -1,0 +1,46 @@
+@mixin heading-font-1 {
+  font: 1.5rem bold Poppins, sans-serif;
+  line-height: 36px;
+}
+
+@mixin heading-font-2{
+  font: 1.25rem Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+@mixin heading-font-3 {
+  font: 1rem Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin heading-font-4 {
+  font: 0.875rem Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+@mixin button-font-1 {
+  font: 0.875rem Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+@mixin button-font-2 {
+  font: 1rem Poppins, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin text-font-1 {
+  font: 0.875rem Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+@mixin text-font-2 {
+  font: 0.75rem Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+}
